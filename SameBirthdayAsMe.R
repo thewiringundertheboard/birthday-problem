@@ -3,7 +3,7 @@ library(tidyverse)
 # number of possible people in the room
 numberOfPeople <- 1:3000
 
-# create a ibble to store the data
+# create a tibble to store the data
 sameBirthdayData <- tibble('number' = 1:length(numberOfPeople), 'probability' = seq(0,1,length(numberOfPeople)))
 
 # function to return the probability for 
